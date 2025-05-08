@@ -8,7 +8,7 @@ const session = require('express-session');
 const Keycloak = require('keycloak-connect');
 const memoryStore = new session.MemoryStore();
 app.use(session({
-secret: 'api-secret',
+secret: "kodyHdezogABZZ16qD2ChrPtA2YPAl2r",
 resave: false,
 saveUninitialized: true,
 store: memoryStore
